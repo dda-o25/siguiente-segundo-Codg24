@@ -1,5 +1,17 @@
 """
-Calcular la hora correspondiente al siguiente segundo
+Integrantes
+Carlos Osvaldo Díaz García
+
+Fecha
+12 de septiembre de 2025
+
+Calcular la hora correspondiente al siguiente segundo: El programa recibirá 
+tres números enteros que representan, respectivamente, las horas, minutos y 
+segundos correspondientes a un momento dado y deberá calcular los números que 
+representan las horas, minutos y segundos correspondientes a la hora que sería 
+después de haber transcurrido un segundo después de la hora proporcionada como 
+entrada. La hora se representa en formato de 24 horas y la entrada corresponde 
+a una hora válida.
 """
 
 # Declaraciones
@@ -34,5 +46,3 @@ if hora < max_hora and minuto < max_minutos and segundo < max_segundos:
 else:
     #Salidas
     print("Ingrese valores validos")
-
-
